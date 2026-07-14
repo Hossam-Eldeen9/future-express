@@ -22,13 +22,23 @@
 </head>
 <body class="bg-logisticsLight text-slate-800 font-sans antialiased">
 
+    <!-- NAVIGATION BAR -->
     <nav class="sticky top-0 z-50 bg-logisticsBlue text-white shadow-md">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-20">
-                <div class="flex-shrink-0 flex flex-col">
-                    <span class="text-2xl font-black tracking-wider text-white">FUTURE EXPRESS</span>
-                    <span class="text-xs tracking-widest text-logisticsOrange uppercase font-bold -mt-1">Logistics & Freight</span>
+                <!-- LOGO & BRAND SECTION -->
+                <div class="flex items-center space-x-4">
+                    <!-- Company Logo Image -->
+                    <img src="logo.png" alt="Future Express Logo" class="h-12 sm:h-14 w-auto object-contain">
+                    
+                    <!-- Vertical Divider & Brand Text -->
+                    <div class="flex flex-col border-l border-slate-600 pl-3 sm:pl-4">
+                        <span class="text-xl sm:text-2xl font-black tracking-wider text-white leading-none">FUTURE EXPRESS</span>
+                        <span class="text-[9px] sm:text-[10px] tracking-widest text-logisticsOrange uppercase font-bold mt-1">Logistics & Freight</span>
+                    </div>
                 </div>
+                
+                <!-- MENU -->
                 <div class="hidden md:flex space-x-8 font-medium">
                     <a href="#home" class="hover:text-logisticsOrange transition-colors">Home</a>
                     <a href="#about" class="hover:text-logisticsOrange transition-colors">About Us</a>
@@ -43,6 +53,7 @@
         </div>
     </nav>
 
+    <!-- HERO SECTION -->
     <section id="home" class="relative bg-logisticsBlue text-white min-h-[85vh] flex items-center overflow-hidden">
         <div class="absolute inset-0 opacity-20">
             <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1920&q=80" alt="Logistics Background" class="w-full h-full object-cover">
@@ -51,7 +62,7 @@
             <div class="space-y-6">
                 <span class="bg-logisticsOrange bg-opacity-20 text-logisticsOrange px-4 py-1.5 rounded-full text-xs uppercase font-extrabold tracking-widest inline-block">Global Supply Chain Excellence</span>
                 <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight">LET’S HANDLE YOUR SHIPMENT</h1>
-                <p class="text-lg text-slate-300 max-w-xl">Delivering over 22 years of excellence to the global supply chain, offering sophisticated, cost-effective logistics and freight management.</p>
+                <p class="text-lg text-slate-300 max-w-xl">Delivering over 22 years of excellence to the global supply chain, offering sophisticated, cost-effective logistics and freight management[cite: 1].</p>
                 <div class="flex flex-wrap gap-4 pt-4">
                     <a href="#contact" class="bg-logisticsOrange hover:bg-opacity-90 text-white px-8 py-3.5 rounded-md font-bold text-lg shadow-lg transition-all transform hover:-translate-y-0.5">Get a Quick Quote</a>
                     <a href="#services" class="border border-slate-400 hover:border-white hover:bg-white hover:text-logisticsBlue text-white px-8 py-3.5 rounded-md font-bold text-lg transition-all">Our Services</a>
@@ -63,35 +74,37 @@
         </div>
     </section>
 
+    <!-- ABOUT SECTION -->
     <section id="about" class="py-24 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <h2 class="text-sm font-extrabold text-logisticsOrange uppercase tracking-widest">ABOUT OUR COMPANY</h2>
                 <p class="text-3xl sm:text-4xl font-black tracking-tight text-logisticsBlue mt-2">Bridging Borders Seamlessly Since 2004</p>
                 <div class="w-16 h-1 bg-logisticsOrange mx-auto mt-4 rounded-full"></div>
-                <p class="text-slate-600 mt-6 text-lg leading-relaxed">Established in 2004, Future Express delivers over 22 years of excellence to the global supply chain. We combine seasoned operational expertise with cutting-edge tracking technology to handle your cargo safely and efficiently.</p>
+                <p class="text-slate-600 mt-6 text-lg leading-relaxed">Established in 2004, Future Express delivers over 22 years of excellence to the global supply chain[cite: 1]. We combine seasoned operational expertise with cutting-edge tracking technology to handle your cargo safely and efficiently[cite: 1].</p>
             </div>
 
             <div class="grid md:grid-cols-3 gap-8 mt-12">
                 <div class="bg-logisticsLight p-8 rounded-xl border-t-4 border-logisticsBlue shadow-sm transition-all hover:shadow-md">
                     <div class="w-12 h-12 bg-logisticsBlue bg-opacity-10 text-logisticsBlue rounded-lg flex items-center justify-center text-xl font-bold mb-6"><i class="fa-solid fa-bullseye text-2xl"></i></div>
                     <h3 class="text-xl font-bold text-logisticsBlue mb-3">MISSION</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">Our mission is to deliver high-quality, cost-effective logistics, customs clearance, and inland trucking solutions that add unique value to the global supply chain community through operational excellence and technological integration.</p>
+                    <p class="text-slate-600 text-sm leading-relaxed">Our mission is to deliver high-quality, cost-effective logistics, customs clearance, and inland trucking solutions that add unique value to the global supply chain community through operational excellence and technological integration[cite: 1].</p>
                 </div>
                 <div class="bg-logisticsLight p-8 rounded-xl border-t-4 border-logisticsOrange shadow-sm transition-all hover:shadow-md">
                     <div class="w-12 h-12 bg-logisticsOrange bg-opacity-10 text-logisticsOrange rounded-lg flex items-center justify-center text-xl font-bold mb-6"><i class="fa-solid fa-eye text-2xl"></i></div>
                     <h3 class="text-xl font-bold text-logisticsBlue mb-3">VISION</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">To be recognized as a premier global supply chain provider, setting the standard for seamless end-to-end logistics, precision customs clearance, and elite inland transportation uniting technology and operational expertise.</p>
+                    <p class="text-slate-600 text-sm leading-relaxed">To be recognized as a premier global supply chain provider, setting the standard for seamless end-to-end logistics, precision customs clearance, and elite inland transportation uniting technology and operational expertise[cite: 1].</p>
                 </div>
                 <div class="bg-logisticsLight p-8 rounded-xl border-t-4 border-logisticsBlue shadow-sm transition-all hover:shadow-md">
                     <div class="w-12 h-12 bg-logisticsBlue bg-opacity-10 text-logisticsBlue rounded-lg flex items-center justify-center text-xl font-bold mb-6"><i class="fa-solid fa-handshake text-2xl"></i></div>
                     <h3 class="text-xl font-bold text-logisticsBlue mb-3">FULL-SERVICE PARTNER</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">Whether your cargo moves through an Egyptian seaport or airport, we provide elite, end-to-end customs clearance and inland trucking solutions executed with flawless handling, precision timing, and competitive pricing.</p>
+                    <p class="text-slate-600 text-sm leading-relaxed">Whether your cargo moves through an Egyptian seaport or airport, we provide elite, end-to-end customs clearance and inland trucking solutions executed with flawless handling, precision timing, and competitive pricing[cite: 1].</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- SERVICES SECTION -->
     <section id="services" class="py-24 bg-logisticsLight">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
@@ -109,7 +122,7 @@
                     </div>
                     <div class="p-8">
                         <h3 class="text-xl font-bold text-logisticsBlue mb-3">Freight Logistics</h3>
-                        <p class="text-slate-600 text-sm leading-relaxed">We deliver streamlined, end-to-end logistics solutions across air, sea, and land networks. Leveraging a strategic global network, our team ensures your cargo is transported safely, on time, and at highly competitive rates.</p>
+                        <p class="text-slate-600 text-sm leading-relaxed">We deliver streamlined, end-to-end logistics solutions across air, sea, and land networks. Leveraging a strategic global network, our team ensures your cargo is transported safely, on time, and at highly competitive rates[cite: 1].</p>
                     </div>
                 </div>
                 <div class="bg-white rounded-xl shadow-sm overflow-hidden group hover:shadow-xl transition-all border border-slate-100">
@@ -120,7 +133,7 @@
                     </div>
                     <div class="p-8">
                         <h3 class="text-xl font-bold text-logisticsBlue mb-3">Customs Clearance</h3>
-                        <p class="text-slate-600 text-sm leading-relaxed">Our certified specialists handle the complexities of international trade, managing documentation, tariff classifications, and regulatory compliance. We mitigate risks, eliminate costly penalties, and ensure smooth border crossings.</p>
+                        <p class="text-slate-600 text-sm leading-relaxed">Our certified specialists handle the complexities of international trade, managing documentation, tariff classifications, and regulatory compliance. We mitigate risks, eliminate costly penalties, and ensure smooth border crossings[cite: 1].</p>
                     </div>
                 </div>
                 <div class="bg-white rounded-xl shadow-sm overflow-hidden group hover:shadow-xl transition-all border border-slate-100">
@@ -131,41 +144,42 @@
                     </div>
                     <div class="p-8">
                         <h3 class="text-xl font-bold text-logisticsBlue mb-3">Trucking Solutions</h3>
-                        <p class="text-slate-600 text-sm leading-relaxed">Future Express operates a modern, reliable fleet providing secure door-to-door distribution. We offer flexible Full Truckload (FTL) and Less-than-Truckload (LTL) solutions tailored to your payload volume, schedule, and budget.</p>
+                        <p class="text-slate-600 text-sm leading-relaxed">Future Express operates a modern, reliable fleet providing secure door-to-door distribution[cite: 1]. We offer flexible Full Truckload (FTL) and Less-than-Truckload (LTL) solutions tailored to your payload volume, schedule, and budget[cite: 1].</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- WHY CHOOSE US & CORE VALUES -->
     <section class="py-24 bg-logisticsBlue text-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-2 gap-16 items-center">
                 <div>
                     <h2 class="text-sm font-extrabold text-logisticsOrange uppercase tracking-widest">WHY CHOOSE US</h2>
                     <p class="text-3xl font-black mt-2 mb-6">Engineered Supply Chain Solutions</p>
-                    <p class="text-slate-300 mb-8">Leveraging an extensive international infrastructure, Future Express connects businesses to critical global markets. We ensure uninterrupted operational continuity through rigorous compliance and absolute precision.</p>
+                    <p class="text-slate-300 mb-8">Leveraging an extensive international infrastructure, Future Express connects businesses to critical global markets[cite: 1]. We ensure uninterrupted operational continuity through rigorous compliance and absolute precision[cite: 1].</p>
                     
                     <div class="space-y-4">
                         <div class="flex items-start space-x-4">
                             <div class="bg-logisticsOrange text-white p-2 rounded-lg mt-1"><i class="fa-solid fa-bolt w-5 h-5 flex items-center justify-center"></i></div>
                             <div>
                                 <h4 class="text-lg font-bold">Fast Customs Clearance</h4>
-                                <p class="text-slate-400 text-sm">Certified specialists manage all import, export, and transit formalities with extreme accuracy.</p>
+                                <p class="text-slate-400 text-sm">Certified specialists manage all import, export, and transit formalities with extreme accuracy[cite: 1].</p>
                             </div>
                         </div>
                         <div class="flex items-start space-x-4">
                             <div class="bg-logisticsOrange text-white p-2 rounded-lg mt-1"><i class="fa-solid fa-shield-halved w-5 h-5 flex items-center justify-center"></i></div>
                             <div>
                                 <h4 class="text-lg font-bold">Reliable Modern Fleet</h4>
-                                <p class="text-slate-400 text-sm">Every vehicle is maintained to rigid industry safety and performance standards for absolute security.</p>
+                                <p class="text-slate-400 text-sm">Every vehicle is maintained to rigid industry safety and performance standards for absolute security[cite: 1].</p>
                             </div>
                         </div>
                         <div class="flex items-start space-x-4">
                             <div class="bg-logisticsOrange text-white p-2 rounded-lg mt-1"><i class="fa-solid fa-headset w-5 h-5 flex items-center justify-center"></i></div>
                             <div>
                                 <h4 class="text-lg font-bold">24/7 Dedicated Support</h4>
-                                <p class="text-slate-400 text-sm">Our dynamic customer success team is perpetually available to provide real-time tracking updates.</p>
+                                <p class="text-slate-400 text-sm">Our dynamic customer success team is perpetually available to provide real-time tracking updates[cite: 1].</p>
                             </div>
                         </div>
                     </div>
@@ -176,19 +190,19 @@
                     <div class="grid sm:grid-cols-2 gap-6">
                         <div>
                             <h4 class="font-extrabold text-logisticsBlue text-base"><i class="fa-solid fa-circle-check text-logisticsOrange mr-2"></i>Operational Excellence</h4>
-                            <p class="text-xs text-slate-500 mt-1">Highest safety, precision, and efficiency across all sea, air, and land networks.</p>
+                            <p class="text-xs text-slate-500 mt-1">Highest safety, precision, and efficiency across all sea, air, and land networks[cite: 1].</p>
                         </div>
                         <div>
                             <h4 class="font-extrabold text-logisticsBlue text-base"><i class="fa-solid fa-scale-balanced text-logisticsOrange mr-2"></i>Integrity & Compliance</h4>
-                            <p class="text-xs text-slate-500 mt-1">Absolute transparency and strict adherence protecting your business bottom lines.</p>
+                            <p class="text-xs text-slate-500 mt-1">Absolute transparency and strict adherence protecting your business bottom lines[cite: 1].</p>
                         </div>
                         <div>
                             <h4 class="font-extrabold text-logisticsBlue text-base"><i class="fa-solid fa-microchip text-logisticsOrange mr-2"></i>Client Innovation</h4>
-                            <p class="text-xs text-slate-500 mt-1">Advanced digital tracking and secure CRM platforms for transparent under-24h resolution.</p>
+                            <p class="text-xs text-slate-500 mt-1">Advanced digital tracking and secure CRM platforms for transparent under-24h resolution[cite: 1].</p>
                         </div>
                         <div>
                             <h4 class="font-extrabold text-logisticsBlue text-base"><i class="fa-solid fa-calculator text-logisticsOrange mr-2"></i>Cost Efficiency</h4>
-                            <p class="text-xs text-slate-500 mt-1">Engineered logistics architectures keeping the market's most competitive cost structures.</p>
+                            <p class="text-xs text-slate-500 mt-1">Engineered logistics architectures keeping the market's most competitive cost structures[cite: 1].</p>
                         </div>
                     </div>
                 </div>
@@ -196,6 +210,7 @@
         </div>
     </section>
 
+    <!-- SERVICE PROCESS -->
     <section id="process" class="py-24 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-20">
@@ -208,29 +223,30 @@
                 <div class="relative text-center space-y-4">
                     <div class="w-16 h-16 bg-logisticsLight text-logisticsBlue rounded-full flex items-center justify-center text-2xl font-black mx-auto border-2 border-slate-200 shadow-sm">1</div>
                     <h3 class="text-xl font-bold text-logisticsBlue">Consultation & Planning</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed px-4">Comprehensive assessment of logistical requirements, evaluating cargo specifications, documentation, and optimal routing strategies.</p>
+                    <p class="text-slate-600 text-sm leading-relaxed px-4">Comprehensive assessment of logistical requirements, evaluating cargo specifications, documentation, and optimal routing strategies[cite: 1].</p>
                 </div>
                 <div class="relative text-center space-y-4">
                     <div class="w-16 h-16 bg-logisticsOrange text-white rounded-full flex items-center justify-center text-2xl font-black mx-auto shadow-md">2</div>
                     <h3 class="text-xl font-bold text-logisticsBlue">Execution & Tracking</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed px-4">Coordinating transits lifecycle seamlessly managing customs protocols, trucking dispatch, and active real-time milestone tracking.</p>
+                    <p class="text-slate-600 text-sm leading-relaxed px-4">Coordinating transits lifecycle seamlessly managing customs protocols, trucking dispatch, and active real-time milestone tracking[cite: 1].</p>
                 </div>
                 <div class="relative text-center space-y-4">
                     <div class="w-16 h-16 bg-logisticsLight text-logisticsBlue rounded-full flex items-center justify-center text-2xl font-black mx-auto border-2 border-slate-200 shadow-sm">3</div>
                     <h3 class="text-xl font-bold text-logisticsBlue">Delivery & Support</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed px-4">Guaranteeing safe, secure and punctual final point delivery backed by dedicated rapid-inquiry post-delivery support infrastructure.</p>
+                    <p class="text-slate-600 text-sm leading-relaxed px-4">Guaranteeing safe, secure and punctual final point delivery backed by dedicated rapid-inquiry post-delivery support infrastructure[cite: 1].</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- CONTACT & LOCATIONS -->
     <section id="contact" class="py-24 bg-logisticsLight border-t border-slate-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-3 gap-12">
                 
                 <div class="lg:col-span-2 bg-white p-8 sm:p-10 rounded-xl shadow-sm border border-slate-100">
                     <h3 class="text-2xl font-black text-logisticsBlue mb-2">Request a Customs & Freight Quote</h3>
-                    <p class="text-slate-500 text-sm mb-6">Drop us details regarding your transit variables. Our specialists resolve frameworks within 24 hours.</p>
+                    <p class="text-slate-500 text-sm mb-6">Drop us details regarding your transit variables. Our specialists resolve frameworks within 24 hours[cite: 1].</p>
                     
                     <form class="space-y-6">
                         <div class="grid sm:grid-cols-2 gap-6">
@@ -269,30 +285,30 @@
                 <div class="space-y-6">
                     <div class="bg-logisticsBlue text-white p-8 rounded-xl shadow-md">
                         <h4 class="text-sm font-extrabold text-logisticsOrange uppercase tracking-wider mb-1">CENTRAL CHANNELS</h4>
-                        <p class="text-xl font-bold mb-4">INFO@FUTUREXPRESSCO.COM</p>
+                        <p class="text-xl font-bold mb-4">INFO@FUTUREXPRESSCO.COM[cite: 1]</p>
                         <p class="text-xs text-slate-400">Reach us across any office network for immediate administrative support.</p>
                     </div>
 
                     <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 space-y-4">
                         <div class="border-b pb-3">
                             <h5 class="text-sm font-extrabold text-logisticsBlue uppercase"><i class="fa-solid fa-building text-logisticsOrange mr-2"></i>HEAD OFFICE</h5>
-                            <p class="text-xs text-slate-500 mt-1">1 Abdul-Hamid Badawy, Heliopolis — Egypt Air Buildings - Floor 1</p>
-                            <p class="text-xs font-bold text-logisticsBlue mt-1"><i class="fa-solid fa-phone text-slate-400 mr-1"></i>+202 69 92 60/8</p>
+                            <p class="text-xs text-slate-500 mt-1">1 Abdul-Hamid Badawy, Heliopolis, Cairo [cite: 1]</p>
+                            <p class="text-xs font-bold text-logisticsBlue mt-1"><i class="fa-solid fa-phone text-slate-400 mr-1"></i>+202 69 92 60/8[cite: 1]</p>
                         </div>
                         <div class="border-b pb-3">
                             <h5 class="text-sm font-extrabold text-logisticsBlue uppercase"><i class="fa-solid fa-location-dot text-logisticsOrange mr-2"></i>CAIRO OFFICE</h5>
-                            <p class="text-xs text-slate-500 mt-1">Heliopolis Hub Networks</p>
-                            <p class="text-xs font-bold text-logisticsBlue mt-1"><i class="fa-solid fa-phone text-slate-400 mr-1"></i>+201117 47 17 17</p>
+                            <p class="text-xs text-slate-500 mt-1">Egypt Air Buildings - Floor 1 [cite: 1]</p>
+                            <p class="text-xs font-bold text-logisticsBlue mt-1"><i class="fa-solid fa-phone text-slate-400 mr-1"></i>+201117 47 17 17[cite: 1]</p>
                         </div>
                         <div class="border-b pb-3">
                             <h5 class="text-sm font-extrabold text-logisticsBlue uppercase"><i class="fa-solid fa-anchor text-logisticsOrange mr-2"></i>ALEX OFFICE</h5>
-                            <p class="text-xs text-slate-500 mt-1">13 Elnasr Road - Elmanshia</p>
-                            <p class="text-xs font-bold text-logisticsBlue mt-1"><i class="fa-solid fa-phone text-slate-400 mr-1"></i>+20100 222 55 98</p>
+                            <p class="text-xs text-slate-500 mt-1">13 Elnasr Road - Elmanshia [cite: 1]</p>
+                            <p class="text-xs font-bold text-logisticsBlue mt-1"><i class="fa-solid fa-phone text-slate-400 mr-1"></i>+20100 222 55 98[cite: 1]</p>
                         </div>
                         <div>
                             <h5 class="text-sm font-extrabold text-logisticsBlue uppercase"><i class="fa-solid fa-warehouse text-logisticsOrange mr-2"></i>SOKHNA OFFICE</h5>
-                            <p class="text-xs text-slate-500 mt-1">TEDA Building - Ain Sokhna</p>
-                            <p class="text-xs font-bold text-logisticsBlue mt-1"><i class="fa-solid fa-phone text-slate-400 mr-1"></i>+201050 68 33 84</p>
+                            <p class="text-xs text-slate-500 mt-1">TEDA Building - Ain Sokhna[cite: 1]</p>
+                            <p class="text-xs font-bold text-logisticsBlue mt-1"><i class="fa-solid fa-phone text-slate-400 mr-1"></i>+201050 68 33 84[cite: 1]</p>
                         </div>
                     </div>
                 </div>
@@ -301,11 +317,12 @@
         </div>
     </section>
 
+    <!-- FOOTER -->
     <footer class="bg-logisticsBlue text-slate-400 py-8 border-t border-slate-800 text-center text-xs">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-2">
             <p class="text-white font-medium">&copy; 2026 Future Express Co. All Rights Reserved.</p>
             <p>Logistics • Customs Clearance • Inland Trucking Solutions</p>
-            <p class="text-slate-600 pt-2">WWW.FUTUREXPRESSCO.COM</p>
+            <p class="text-slate-600 pt-2">WWW.FUTUREXPRESSCO.COM[cite: 1]</p>
         </div>
     </footer>
 
