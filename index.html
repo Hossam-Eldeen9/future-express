@@ -264,21 +264,27 @@
                     <h3 class="text-2xl font-black text-logisticsBlue mb-2">Request a Customs & Freight Quote</h3>
                     <p class="text-slate-500 text-sm mb-6">Drop us details regarding your transit variables. Our specialists resolve frameworks within 24 hours.</p>
                     
-                    <form class="space-y-6">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="space-y-6">
+                        <input type="hidden" name="access_key" value="69368140-240c-46f7-8cdc-1995a45d6189">
+                        
+                        <input type="hidden" name="subject" value="New Quote Request - Future Express Website">
+                        
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
                         <div class="grid sm:grid-cols-2 gap-6">
                             <div>
                                 <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 mb-2">Full Name</label>
-                                <input type="text" placeholder="John Doe" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-logisticsOrange transition-all">
+                                <input type="text" name="name" required placeholder="John Doe" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-logisticsOrange transition-all">
                             </div>
                             <div>
                                 <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 mb-2">Business Email</label>
-                                <input type="email" placeholder="john@company.com" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-logisticsOrange transition-all">
+                                <input type="email" name="email" required placeholder="john@company.com" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-logisticsOrange transition-all">
                             </div>
                         </div>
                         <div class="grid sm:grid-cols-2 gap-6">
                             <div>
                                 <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 mb-2">Service Required</label>
-                                <select class="w-full bg-slate-50 border border-slate-200 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-logisticsOrange transition-all">
+                                <select name="service" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-logisticsOrange transition-all">
                                     <option>Customs Clearance + Trucking</option>
                                     <option>Freight Logistics (Air/Sea/Land)</option>
                                     <option>Inland Trucking (FTL/LTL)</option>
@@ -287,16 +293,17 @@
                             </div>
                             <div>
                                 <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 mb-2">Cargo Type / Weight</label>
-                                <input type="text" placeholder="e.g., 20ft General Cargo Container" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-logisticsOrange transition-all">
+                                <input type="text" name="cargo" placeholder="e.g., 20ft General Cargo Container" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-logisticsOrange transition-all">
                             </div>
                         </div>
                         <div>
                             <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 mb-2">Message Description</label>
-                            <textarea rows="4" placeholder="Detail transit ports, timelines, or processing files..." class="w-full bg-slate-50 border border-slate-200 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-logisticsOrange transition-all"></textarea>
+                            <textarea rows="4" name="message" placeholder="Detail transit ports, timelines, or processing files..." class="w-full bg-slate-50 border border-slate-200 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-logisticsOrange transition-all"></textarea>
                         </div>
-                        <button type="button" class="w-full bg-logisticsOrange hover:bg-opacity-95 text-white font-bold py-4 rounded-lg shadow-md transition-all text-sm uppercase tracking-widest">Submit Logistics Request</button>
+                        
+                        <button type="submit" class="w-full bg-logisticsOrange hover:bg-opacity-95 text-white font-bold py-4 rounded-lg shadow-md transition-all text-sm uppercase tracking-widest">Submit Logistics Request</button>
                     </form>
-                </div>
+                    </div>
 
                 <div class="space-y-6">
                     <div class="bg-logisticsBlue text-white p-8 rounded-xl shadow-md">
