@@ -35,17 +35,17 @@
     <nav class="sticky top-0 z-50 bg-logisticsBlue text-white shadow-md">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-20">
-                <!-- الشعار واسم الشركة -->
-                <div class="flex items-center space-x-4 space-x-reverse">
+                <!-- الشعار واسم الشركة مفعّل للضغط والعودة للأعلى -->
+                <a href="#home" class="flex items-center space-x-4 space-x-reverse cursor-pointer group select-none">
                     <!-- شعار الشركة -->
-                    <img src="logo.png" alt="Future Express Logo" class="h-12 sm:h-14 w-auto object-contain">
+                    <img src="logo.png" alt="Future Express Logo" class="h-12 sm:h-14 w-auto object-contain transition-transform duration-200 group-hover:scale-105">
                     
                     <!-- الخط الفاصل والاسم -->
                     <div class="flex flex-col border-r border-slate-400/30 pr-3 sm:pr-4">
-                        <span class="text-xl sm:text-2xl font-black tracking-wider text-white leading-none">FUTURE EXPRESS</span>
-                        <span class="text-[9px] sm:text-[10px] tracking-widest text-logisticsOrange uppercase font-bold mt-1">خدمات لوجيستية || تخليص جمركي || نقل بري</span>
+                        <span class="text-xl sm:text-2xl font-black tracking-wider text-white leading-none transition-colors duration-200 group-hover:text-logisticsOrange">FUTURE EXPRESS</span>
+                        <span class="text-[9px] sm:text-[10px] tracking-widest text-logisticsOrange uppercase font-bold mt-1 group-hover:text-white transition-colors duration-200">خدمات لوجيستية || تخليص جمركي || نقل بري</span>
                     </div>
-                </div>
+                </a>
                 
                 <!-- القائمة الرئيسية -->
                 <div class="hidden md:flex items-center space-x-8 space-x-reverse font-bold">
@@ -120,7 +120,7 @@
                 <div class="bg-logisticsLight p-8 rounded-xl border-t-4 border-logisticsBlue shadow-sm transition-all hover:shadow-md">
                     <div class="w-12 h-12 bg-logisticsBlue bg-opacity-10 text-logisticsBlue rounded-lg flex items-center justify-center text-xl font-bold mb-6"><i class="fa-solid fa-handshake text-2xl"></i></div>
                     <h3 class="text-xl font-bold text-logisticsBlue mb-3">شريكك اللوجستي المتكامل</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">سواء كانت شحناتك تمر عبر الموانئ البحرية أو المطارات المصرية، نتولى إتمام الإجراءات وتأمين النقل الفوري بأسعار تنافسية هي الأفضل في السوق مع دقة تامة في التوقيت والتعامل.</p>
+                    <p class="text-slate-600 text-sm leading-relaxed">سواء كانت شحناتك تمر عبر الموانئ البحرية أو المطارات المصرية, نتولى إتمام الإجراءات وتأمين النقل الفوري بأسعار تنافسية هي الأفضل في السوق مع دقة تامة في التوقيت والتعامل.</p>
                 </div>
             </div>
         </div>
@@ -215,19 +215,19 @@
                     <h3 class="text-2xl font-black text-logisticsBlue border-b pb-4">قيمنا المهنية</h3>
                     <div class="grid sm:grid-cols-2 gap-6">
                         <div>
-                            <h4 class="font-extrabold text-logisticsBlue text-base"><i class="fa-solid fa-circle-check text-logisticsOrange ml-2"></i>التميز التشغيلي</h4>
+                            <h4 class="font-extrabold text-logisticsBlue text-base"><i class="fa-solid fa-circle-check text-logisticsOrange mr-2"></i>التميز التشغيلي</h4>
                             <p class="text-xs text-slate-500 mt-1">تطبيق أعلى معايير السلامة والكفاءة في جميع مسارات النقل اللوجستي.</p>
                         </div>
                         <div>
-                            <h4 class="font-extrabold text-logisticsBlue text-base"><i class="fa-solid fa-scale-balanced text-logisticsOrange ml-2"></i>الشفافية والالتزام</h4>
+                            <h4 class="font-extrabold text-logisticsBlue text-base"><i class="fa-solid fa-scale-balanced text-logisticsOrange mr-2"></i>الشفافية والالتزام</h4>
                             <p class="text-xs text-slate-500 mt-1">التزام كامل باللوائح والقوانين الجمركية بما يحمي استقرار ومصالح أعمالك.</p>
                         </div>
                         <div>
-                            <h4 class="font-extrabold text-logisticsBlue text-base"><i class="fa-solid fa-microchip text-logisticsOrange ml-2"></i>الابتكار التكنولوجي</h4>
+                            <h4 class="font-extrabold text-logisticsBlue text-base"><i class="fa-solid fa-microchip text-logisticsOrange mr-2"></i>الابتكار التكنولوجي</h4>
                             <p class="text-xs text-slate-500 mt-1">تفعيل أنظمة التتبع الرقمية وتوفير التحديثات وحل المشكلات في أقل من 24 ساعة.</p>
                         </div>
                         <div>
-                            <h4 class="font-extrabold text-logisticsBlue text-base"><i class="fa-solid fa-calculator text-logisticsOrange ml-2"></i>الكفاءة الاقتصادية</h4>
+                            <h4 class="font-extrabold text-logisticsBlue text-base"><i class="fa-solid fa-calculator text-logisticsOrange mr-2"></i>الكفاءة الاقتصادية</h4>
                             <p class="text-xs text-slate-500 mt-1">تصميم حلول لوجستية تضمن تقليل المصاريف وحفظ القيمة الاستثمارية لعملائنا.</p>
                         </div>
                     </div>
@@ -271,16 +271,13 @@
             <div class="grid lg:grid-cols-3 gap-12">
                 
                 <!-- يسار القسم: فوروم الاستعلام -->
-          <div class="lg:col-span-2 bg-white p-8 sm:p-10 rounded-xl shadow-sm border border-slate-100 text-right">
+                <div class="lg:col-span-2 bg-white p-8 sm:p-10 rounded-xl shadow-sm border border-slate-100 text-right">
                     <h3 class="text-2xl font-black text-logisticsBlue mb-2">طلب تسعير لوجستي وجمركي</h3>
                     <p class="text-slate-500 text-sm mb-6">أرسل لنا تفاصيل شحنتك، وسيقوم أحد خبرائنا بدراسة الطلب والرد عليك خلال 24 ساعة كحد أقصى.</p>
                     
                     <form action="https://api.web3forms.com/submit" method="POST" class="space-y-6">
-                        
                         <input type="hidden" name="access_key" value="69368140-240c-46f7-8cdc-1995a45d6189">
-                        
                         <input type="hidden" name="subject" value="طلب تسعير جديد - موقع فيوتشر إكسبريس">
-                        
                         <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
                         <div class="grid sm:grid-cols-2 gap-6">
@@ -327,29 +324,29 @@
 
                     <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 space-y-4">
                         <div class="border-b pb-3">
-                            <h5 class="text-sm font-extrabold text-logisticsBlue uppercase"><i class="fa-solid fa-building text-logisticsOrange ml-2"></i>المقر الرئيسي</h5>
-                            <p class="text-xs text-slate-500 mt-1">1 شارع عبد الحميد بدوي، هيليوبوليس ، القاهرة</p>
+                            <h5 class="text-sm font-extrabold text-logisticsBlue uppercase"><i class="fa-solid fa-building text-logisticsOrange mr-2"></i>المقر الرئيسي</h5>
+                            <p class="text-xs text-slate-500 mt-1">1 شارع عبد الحميد بدوي، مصر الجديدة، القاهرة</p>
                             <a href="tel:+2022699260" class="text-xs font-bold text-logisticsBlue mt-1 inline-flex items-center hover:text-logisticsOrange transition-colors">
                                 <i class="fa-solid fa-phone text-slate-400 ml-2"></i><span dir="ltr" class="inline-block">+202 69 92 60/8</span>
                             </a>
                         </div>
                         <div class="border-b pb-3">
-                            <h5 class="text-sm font-extrabold text-logisticsBlue uppercase"><i class="fa-solid fa-location-dot text-logisticsOrange ml-2"></i>مكتب القاهرة</h5>
+                            <h5 class="text-sm font-extrabold text-logisticsBlue uppercase"><i class="fa-solid fa-location-dot text-logisticsOrange mr-2"></i>مكتب القاهرة</h5>
                             <p class="text-xs text-slate-500 mt-1">عمارات مصر للطيران - الدور الأول</p>
                             <a href="tel:+201117471717" class="text-xs font-bold text-logisticsBlue mt-1 inline-flex items-center hover:text-logisticsOrange transition-colors">
                                 <i class="fa-solid fa-phone text-slate-400 ml-2"></i><span dir="ltr" class="inline-block">+201117 47 17 17</span>
                             </a>
                         </div>
                         <div class="border-b pb-3">
-                            <h5 class="text-sm font-extrabold text-logisticsBlue uppercase"><i class="fa-solid fa-anchor text-logisticsOrange ml-2"></i>مكتب الإسكندرية</h5>
+                            <h5 class="text-sm font-extrabold text-logisticsBlue uppercase"><i class="fa-solid fa-anchor text-logisticsOrange mr-2"></i>مكتب الإسكندرية</h5>
                             <p class="text-xs text-slate-500 mt-1">13 طريق النصر - المنشية</p>
                             <a href="tel:+201002225598" class="text-xs font-bold text-logisticsBlue mt-1 inline-flex items-center hover:text-logisticsOrange transition-colors">
                                 <i class="fa-solid fa-phone text-slate-400 ml-2"></i><span dir="ltr" class="inline-block">+20100 222 55 98</span>
                             </a>
                         </div>
                         <div>
-                            <h5 class="text-sm font-extrabold text-logisticsBlue uppercase"><i class="fa-solid fa-warehouse text-logisticsOrange ml-2"></i>مكتب السخنة</h5>
-                            <p class="text-xs text-slate-500 mt-1">مبنى تيدا (TEDA) - العين السخنة</p>
+                            <h5 class="text-sm font-extrabold text-logisticsBlue uppercase"><i class="fa-solid fa-warehouse text-logisticsOrange mr-2"></i>مكتب السخنة</h5>
+                            <p class="text-xs text-slate-500 mt-1">مبنى تيدا (TEDA) - السويس</p>
                             <a href="tel:+201050683384" class="text-xs font-bold text-logisticsBlue mt-1 inline-flex items-center hover:text-logisticsOrange transition-colors">
                                 <i class="fa-solid fa-phone text-slate-400 ml-2"></i><span dir="ltr" class="inline-block">+201050 68 33 84</span>
                             </a>
