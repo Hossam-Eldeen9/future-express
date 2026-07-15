@@ -29,7 +29,14 @@
     <!-- استيراد خط القاهرة لجمالية الخط العربي -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
 </head>
-<body class="bg-logisticsLight text-slate-800 font-sans antialiased">
+<body class="bg-logisticsLight text-slate-800 font-sans antialiased relative">
+
+    <!-- زر واتساب طائر (Floating WhatsApp Button) -->
+    <a href="https://wa.me/201002225598" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 left-6 z-50 bg-[#25D366] hover:bg-[#20ba5a] text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl transition-all transform hover:scale-110 active:scale-95 group" title="تواصل معنا عبر واتساب">
+        <i class="fa-brands fa-whatsapp text-3xl"></i>
+        <!-- تأثير التلميح عند التحويم -->
+        <span class="absolute left-16 bg-white text-slate-800 text-xs font-bold px-3 py-1.5 rounded-lg shadow-md opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap hidden sm:inline-block border border-slate-100">تواصل معنا</span>
+    </a>
 
     <!-- شريط التنقل (Header) -->
     <nav class="sticky top-0 z-50 bg-logisticsBlue text-white shadow-md">
@@ -129,7 +136,6 @@
     <!-- قسم الأرقام والإنجازات (Success Stories / Stats Section) -->
     <section class="py-24 bg-white border-t border-slate-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <!-- New Arabic Accreditations Headline Included Legibly -->
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <h2 class="text-sm font-extrabold text-logisticsOrange uppercase tracking-widest">سجل إنجازاتنا</h2>
                 <p class="text-3xl sm:text-4xl font-black tracking-tight text-logisticsBlue mt-2">معتمدون عالمياً وموثوقون محلياً</p>
@@ -138,7 +144,6 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-                <!-- إحصائية 1 -->
                 <div class="p-8 bg-logisticsLight rounded-xl border border-slate-100 shadow-sm transform hover:-translate-y-1 transition-all duration-300">
                     <div class="w-14 h-14 bg-logisticsBlue text-white rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
                         <i class="fa-solid fa-users"></i>
@@ -146,7 +151,6 @@
                     <h3 class="text-4xl font-black text-logisticsBlue tracking-tight" dir="ltr">420+</h3>
                     <p class="text-sm font-bold tracking-wide text-slate-500 mt-2">عميل راضٍ عن خدماتنا</p>
                 </div>
-                <!-- إحصائية 2 -->
                 <div class="p-8 bg-logisticsLight rounded-xl border border-slate-100 shadow-sm transform hover:-translate-y-1 transition-all duration-300">
                     <div class="w-14 h-14 bg-logisticsOrange text-white rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
                         <i class="fa-solid fa-box-open"></i>
@@ -154,7 +158,6 @@
                     <h3 class="text-4xl font-black text-logisticsBlue tracking-tight" dir="ltr">15,000+</h3>
                     <p class="text-sm font-bold tracking-wide text-slate-500 mt-2">شحنة ناجحة من الباب إلى الباب</p>
                 </div>
-                <!-- إحصائية 3 -->
                 <div class="p-8 bg-logisticsLight rounded-xl border border-slate-100 shadow-sm transform hover:-translate-y-1 transition-all duration-300">
                     <div class="w-14 h-14 bg-logisticsBlue text-white rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
                         <i class="fa-solid fa-truck-moving"></i>
@@ -180,7 +183,7 @@
                     <div class="h-48 overflow-hidden relative">
                         <img src="https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=600&q=80" alt="Freight Logistics" class="w-full h-full object-cover group-hover:scale-105 transition-all duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-logisticsBlue to-transparent opacity-60"></div>
-                        <i class="fa-solid fa-ship absolute bottom-4 left-6 text-white text-3xl"></i>
+                        <i class="fa-solid fa-ship absolute bottom-4 right-6 text-white text-3xl"></i>
                     </div>
                     <div class="p-8">
                         <h3 class="text-xl font-bold text-logisticsBlue mb-3">خدمات الشحن واللوجستيات</h3>
@@ -213,7 +216,7 @@
         </div>
     </section>
 
-    <!-- مميزاتنا وقيمنا (Why Us Section) -->
+    <!-- WHY CHOOSE US & CORE VALUES -->
     <section class="py-24 bg-logisticsBlue text-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-2 gap-16 items-center">
@@ -301,12 +304,11 @@
         </div>
     </section>
 
-    <!-- تواصل معنا وفروعنا (Contact & Locations Section) -->
+    <!-- CONTACT & LOCATIONS -->
     <section id="contact" class="py-24 bg-logisticsLight border-t border-slate-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-3 gap-12">
                 
-                <!-- يسار القسم: فوروم الاستعلام التفاعلي المحدّث -->
                 <div class="lg:col-span-2 bg-white p-8 sm:p-10 rounded-xl shadow-sm border border-slate-100 text-right">
                     <h3 class="text-2xl font-black text-logisticsBlue mb-2">طلب تسعير لوجستي وجمركي</h3>
                     <p class="text-slate-500 text-sm mb-6">أرسل لنا تفاصيل شحنتك، وسيقوم أحد خبرائنا بدراسة الطلب والرد عليك خلال 24 ساعة كحد أقصى.</p>
@@ -383,8 +385,8 @@
                         <div class="border-b pb-3">
                             <h5 class="text-sm font-extrabold text-logisticsBlue uppercase"><i class="fa-solid fa-building text-logisticsOrange mr-2"></i>المقر الرئيسي</h5>
                             <p class="text-xs text-slate-500 mt-1">1 شارع عبد الحميد بدوي، مصر الجديدة، القاهرة</p>
-                            <a href="tel:+2022699260" class="text-xs font-bold text-logisticsBlue mt-1 inline-flex items-center hover:text-logisticsOrange transition-colors">
-                                <i class="fa-solid fa-phone text-slate-400 ml-2"></i><span dir="ltr" class="inline-block">+202 69 92 60/8</span>
+                            <a href="tel:+20222699260" class="text-xs font-bold text-logisticsBlue mt-1 inline-flex items-center hover:text-logisticsOrange transition-colors">
+                                <i class="fa-solid fa-phone text-slate-400 ml-2"></i><span dir="ltr" class="inline-block">+20222 69 92 60</span>
                             </a>
                         </div>
                         <div class="border-b pb-3">
@@ -403,7 +405,7 @@
                         </div>
                         <div>
                             <h5 class="text-sm font-extrabold text-logisticsBlue uppercase"><i class="fa-solid fa-warehouse text-logisticsOrange mr-2"></i>مكتب السخنة</h5>
-                            <p class="text-xs text-slate-500 mt-1">مبنى تيدا (TEDA) - العين السخنة</p>
+                            <p class="text-xs text-slate-500 mt-1">مبنى تيدا (TEDA) - السويس</p>
                             <a href="tel:+201050683384" class="text-xs font-bold text-logisticsBlue mt-1 inline-flex items-center hover:text-logisticsOrange transition-colors">
                                 <i class="fa-solid fa-phone text-slate-400 ml-2"></i><span dir="ltr" class="inline-block">+201050 68 33 84</span>
                             </a>
@@ -415,7 +417,7 @@
         </div>
     </section>
 
-    <!-- فوتر الموقع -->
+  <!-- فوتر الموقع -->
     <footer class="bg-logisticsBlue text-slate-400 py-8 border-t border-slate-800 text-center text-xs">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-2">
             <p class="text-white font-medium">&copy; 2026 جميع الحقوق محفوظة لشركة فيوتشر إكسبريس.</p>
