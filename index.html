@@ -24,7 +24,14 @@
         }
     </script>
 </head>
-<body class="bg-logisticsLight text-slate-800 font-sans antialiased">
+<body class="bg-logisticsLight text-slate-800 font-sans antialiased relative">
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a href="https://wa.me/201002225598" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-50 bg-[#25D366] hover:bg-[#20ba5a] text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl transition-all transform hover:scale-110 active:scale-95 group" title="Chat with us on WhatsApp">
+        <i class="fa-brands fa-whatsapp text-3xl"></i>
+        <!-- Tooltip effect on hover -->
+        <span class="absolute right-16 bg-white text-slate-800 text-xs font-bold px-3 py-1.5 rounded-lg shadow-md opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap hidden sm:inline-block border border-slate-100">Chat with us</span>
+    </a>
 
     <!-- NAVIGATION BAR -->
     <nav class="sticky top-0 z-50 bg-logisticsBlue text-white shadow-md">
@@ -123,7 +130,6 @@
     <!-- SUCCESS STORIES / STATS SECTION -->
     <section class="py-24 bg-white border-t border-slate-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <!-- New Global Accreditations Headline -->
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <h2 class="text-sm font-extrabold text-logisticsOrange uppercase tracking-widest">Our Track Record</h2>
                 <p class="text-3xl font-black tracking-tight text-logisticsBlue mt-2">Globally Vetted. Locally Trusted.</p>
@@ -132,7 +138,6 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-                <!-- Stat 1 -->
                 <div class="p-8 bg-logisticsLight rounded-xl border border-slate-100 shadow-sm transform hover:-translate-y-1 transition-all duration-300">
                     <div class="w-14 h-14 bg-logisticsBlue text-white rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
                         <i class="fa-solid fa-users"></i>
@@ -140,7 +145,6 @@
                     <h3 class="text-4xl font-black text-logisticsBlue tracking-tight">420+</h3>
                     <p class="text-sm font-bold uppercase tracking-wider text-slate-500 mt-2">Satisfied Clients</p>
                 </div>
-                <!-- Stat 2 -->
                 <div class="p-8 bg-logisticsLight rounded-xl border border-slate-100 shadow-sm transform hover:-translate-y-1 transition-all duration-300">
                     <div class="w-14 h-14 bg-logisticsOrange text-white rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
                         <i class="fa-solid fa-box-open"></i>
@@ -148,7 +152,6 @@
                     <h3 class="text-4xl font-black text-logisticsBlue tracking-tight">15,000+</h3>
                     <p class="text-sm font-bold uppercase tracking-wider text-slate-500 mt-2">Successful Door-to-Door Shipments</p>
                 </div>
-                <!-- Stat 3 -->
                 <div class="p-8 bg-logisticsLight rounded-xl border border-slate-100 shadow-sm transform hover:-translate-y-1 transition-all duration-300">
                     <div class="w-14 h-14 bg-logisticsBlue text-white rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
                         <i class="fa-solid fa-truck-moving"></i>
@@ -173,7 +176,7 @@
                 <div class="bg-white rounded-xl shadow-sm overflow-hidden group hover:shadow-xl transition-all border border-slate-100">
                     <div class="h-48 overflow-hidden relative">
                         <img src="https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=600&q=80" alt="Freight Logistics" class="w-full h-full object-cover group-hover:scale-105 transition-all duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-logisticsBlue option-60"></div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-logisticsBlue to-transparent opacity-60"></div>
                         <i class="fa-solid fa-ship absolute bottom-4 left-6 text-white text-3xl"></i>
                     </div>
                     <div class="p-8">
@@ -377,21 +380,21 @@
                         <div class="border-b pb-3">
                             <h5 class="text-sm font-extrabold text-logisticsBlue uppercase"><i class="fa-solid fa-building text-logisticsOrange mr-2"></i>HEAD OFFICE</h5>
                             <p class="text-xs text-slate-500 mt-1">1 Abdul-Hamid Badawy, Heliopolis, Cairo</p>
-                            <a href="tel:+2022699260" class="text-xs font-bold text-logisticsBlue mt-1 inline-block hover:text-logisticsOrange transition-colors"><i class="fa-solid fa-phone text-slate-400 mr-1"></i>+202 69 92 60/8</a>
+                            <a href="tel:+20222699260" class="text-xs font-bold text-logisticsBlue mt-1 inline-block hover:text-logisticsOrange transition-colors"><i class="fa-solid fa-phone text-slate-400 mr-1"></i>+20222 69 92 60</a>
                         </div>
                         <div class="border-b pb-3">
                             <h5 class="text-sm font-extrabold text-logisticsBlue uppercase"><i class="fa-solid fa-location-dot text-logisticsOrange mr-2"></i>CAIRO OFFICE</h5>
-                            <p class="text-xs text-slate-500 mt-1">Egypt Air Buildings - Floor 1</p>
+                            <p class="text-xs text-slate-500 mt-1">Egypt Air Buildings, Floor 1</p>
                             <a href="tel:+201117471717" class="text-xs font-bold text-logisticsBlue mt-1 inline-block hover:text-logisticsOrange transition-colors"><i class="fa-solid fa-phone text-slate-400 mr-1"></i>+201117 47 17 17</a>
                         </div>
                         <div class="border-b pb-3">
-                            <h5 class="text-sm font-extrabold text-logisticsBlue uppercase"><i class="fa-solid fa-anchor text-logisticsOrange mr-2"></i>ALEX OFFICE</h5>
-                            <p class="text-xs text-slate-500 mt-1">13 Elnasr Road - Elmanshia</p>
+                            <h5 class="text-sm font-extrabold text-logisticsBlue uppercase"><i class="fa-solid fa-anchor text-logisticsOrange mr-2"></i>ALEXANDRIA OFFICE</h5>
+                            <p class="text-xs text-slate-500 mt-1">13 Elnasr Road, El-Manshia</p>
                             <a href="tel:+201002225598" class="text-xs font-bold text-logisticsBlue mt-1 inline-block hover:text-logisticsOrange transition-colors"><i class="fa-solid fa-phone text-slate-400 mr-1"></i>+20100 222 55 98</a>
                         </div>
                         <div>
                             <h5 class="text-sm font-extrabold text-logisticsBlue uppercase"><i class="fa-solid fa-warehouse text-logisticsOrange mr-2"></i>SOKHNA OFFICE</h5>
-                            <p class="text-xs text-slate-500 mt-1">TEDA Building - Ain Sokhna</p>
+                            <p class="text-xs text-slate-500 mt-1">TEDA Building, Suez</p>
                             <a href="tel:+201050683384" class="text-xs font-bold text-logisticsBlue mt-1 inline-block hover:text-logisticsOrange transition-colors"><i class="fa-solid fa-phone text-slate-400 mr-1"></i>+201050 68 33 84</a>
                         </div>
                     </div>
